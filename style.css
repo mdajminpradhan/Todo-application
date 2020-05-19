@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/4.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.wraper {
+    margin: 100px auto;
+    width: 30%;
+    background: white;
+}
+
+.header {
+    background: deepskyblue;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.row {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: rgba(0,0,0,.7);
+}
+
+.row input[type=checkbox] {
+    float: right;
+    margin-top: 4px;
+    background: transparent;
+    padding: 5px;
+}
+
+.row input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+    width: 90%;
+    color: rgba(0,0,0,.4)
+}
+
+.grey {
+    background: rgb(230, 230, 230);
+}
